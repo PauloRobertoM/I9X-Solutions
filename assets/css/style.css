@@ -1,0 +1,364 @@
+@font-face {
+    font-family: gotham;
+    src: url('../fonts/Gotham Ultra.otf');
+}
+@font-face {
+    font-family: gotham-medio;
+    src: url('../fonts/Gotham-Medium(1).ttf');
+}
+@font-face {
+    font-family: gotham-light;
+    src: url('../fonts/Gotham-Light_0(1).otf');
+}
+* {
+    outline: none;
+}
+a {
+    text-decoration: none!important;
+    cursor: pointer!important;
+}
+p {
+    line-height: 1.5;
+}
+ul {
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+body {
+    margin: 0;
+    font-weight: 300;
+}
+.container {
+    max-width: 90%!important;
+    width: 100%;
+}
+.pd-30 {
+    padding: 30px;
+}
+
+
+/* --- TOPO --- */
+header {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    z-index: 200;
+}
+.navbar-default {
+    background: rgba(244, 46, 120, 0.7);
+    border: none;
+    height: 60px;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+.navbar-header img {
+    margin-top: -15px;
+}
+#bs-example-navbar-collapse-1 {
+    float: right;
+    padding: 0;
+}
+.nav ul>li>a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    color: #fff!important;
+}
+
+#home {
+    background: url(../images/home.png) no-repeat;
+    width: 100%;
+    height: 1020px;
+}
+#home .content {
+    width: 100%;
+}
+#home .center {
+    height: 900px;
+    display: flex;
+    align-items: center;
+}
+#home .center .content h1 {
+    font-size: 85px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: gotham;
+}
+#home .center .content h1 span {
+    color: #FBCD71;
+}
+#home .center .content h2 {
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: gotham-medio;
+    margin-top: -20px;
+}
+#home .center .content p {
+    font-size: 20px;
+    color: #E3E3E3;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -5px;
+    line-height: 1.2;
+    margin-bottom: 60px;
+}
+.botao {
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    padding: 10px 55px;
+    border-radius: 50px;
+}
+.bt1 {
+    background: #F8679D;
+    margin-right: 20px;
+}
+.bt2 {
+    background: #FEA788;
+}
+.bt1:hover {
+    background: #FEA788;
+    color: #fff;
+}
+.bt2:hover {
+    background: #F8679D;
+    color: #fff;
+}
+
+#sobre {
+    background-color: #F2F5F8;
+    width: 100%;
+    height: 1020px;
+}
+#sobre .center {
+    height: 1020px;
+    display: flex;
+    align-items: center;
+}
+#sobre img {
+    width: 100%;
+}
+#sobre p.brand img {
+    width: 28px!important;
+    margin-right: 10px;
+}
+#sobre p.brand {
+    font-size: 14px!important;
+    color: #6859EA!important;
+    font-family: 'Montserrat', sans-serif!important;
+}
+#sobre .content {
+    padding: 0 45px;
+}
+#sobre .content h1 {
+    font-size: 60px;
+    color: #F42E78;
+    font-family: gotham;
+    margin-bottom: 20px;
+}
+#sobre .content p {
+    font-size: 18px;
+    color: #4E4E4E;
+    font-family: gotham-light;
+    line-height: 1.2;
+    margin-bottom: 5px;
+}
+.bt3 {
+    color: #F42E78!important;
+    background: #F2F5F8;
+    box-shadow: 0px 0px 6px #000;
+}
+
+#servicos {
+    background: url(../images/servicos.png) no-repeat;
+    width: 100%;
+    height: 1020px;
+    text-align: center;
+}
+#servicos .center {
+    height: 1020px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#servicos .content {
+    width: 100%;
+}
+#servicos p.brand span {
+    font-size: 14px!important;
+    color: #fff!important;
+    font-family: 'Montserrat', sans-serif!important;
+    margin: 0 10px;
+}
+#servicos h1 {
+    font-size: 60px;
+    color: #fff;
+    font-family: gotham;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+#servicos .itens {
+    float: left;
+    background: #fff;
+    padding: 15px;
+    border-radius: 50px;
+    margin: 23px 0;
+}
+#servicos .item {
+    float: right;
+    width: 75%;
+    text-align: left;
+}
+#servicos .item h3 {
+    font-size: 28px;
+    color: #fff;
+    font-family: gotham;
+    text-transform: uppercase;
+}
+#servicos .item p {
+    font-size: 16px;
+    color: #E3E3E3;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.2;
+}
+
+#equipe {
+    background: url(../images/equipe.png) no-repeat;
+    width: 100%;
+    height: 1020px;
+    text-align: center;
+}
+#equipe .center {
+    height: 1020px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#equipe .content {
+    width: 100%;
+}
+#equipe h1 {
+    font-size: 60px;
+    color: #6859EA;
+    font-family: gotham;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+#contato {
+    background: url(../images/contato.png) no-repeat;
+    width: 100%;
+    height: 1020px;
+    text-align: center;
+}
+#contato .center {
+    height: 1020px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contato .content {
+    width: 100%;
+}
+#contato h1 {
+    font-size: 60px;
+    color: #fff;
+    font-family: gotham;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.bt4 {
+    color: #fff;
+    background: #F42E78;
+}
+.bt4:hover {
+    color: #F42E78;
+    background: #fff;   
+}
+
+footer {
+    background: url(../images/footer.png) no-repeat;
+    width: 100%;
+    height: 130px;
+    text-align: center;
+}
+footer .center {
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .content {
+    width: 100%;
+}
+footer a {
+    float: left;
+}
+footer span {
+    font-size: 20px;
+    color: #fff;
+}
+
+input.botao.bt4 {
+    border: none;
+}
+input.botao.bt3 {
+    border: none;
+}
+form input {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #F42E78;
+}
+form textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #F42E78;
+}
+
+
+@media (min-width: 768px) and (max-width: 870px) {
+
+}
+@media (max-width: 767px) {
+    button.navbar-toggle.collapsed {
+        display: none;
+    }
+    #home .center .content h1 {
+        font-size: 34px;
+    }
+    #home .center .content h2 {
+        font-size: 24px;
+    }
+    #home .center .content p {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+    .botao {
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+    #home {
+        height: 470px;
+    }
+    #home .center {
+        height: 470px;
+    }
+}
+@media (min-width: 787px) and (max-width: 999px) {
+
+}
+@media (min-width: 768px) and (max-width: 1010px) {
+
+}
+@media (max-width: 599px) {
+
+}
