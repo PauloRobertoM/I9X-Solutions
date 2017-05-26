@@ -59,7 +59,7 @@
       <section id="sobre">
          <div class="container center">
             <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="col-lg-6 col-md-6 col-sm-6 hidden-xs">
                <img src="assets/images/sobre.png" alt="Sobre - i9x solutions" />
             </div><!-- .md-6 -->
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">

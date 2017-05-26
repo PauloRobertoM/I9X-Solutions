@@ -325,10 +325,37 @@ form textarea {
 }
 
 
-@media (min-width: 768px) and (max-width: 870px) {
-
+@media (max-width: 1200px) {
+    #sobre {
+        background-color: #F2F5F8;
+        width: 100%;
+        min-height: 1020px;
+        height: 100%;
+    }
+    #sobre .center {
+        min-height: 1020px;
+        height: 100%;
+    }
+    #servicos {
+        background: url(../images/servicos.png) no-repeat;
+        background-color: #7d45ac;
+        min-height: 1020px;
+        height: 100%;
+        padding: 50px 0;
+    }
+    #servicos .center {
+        min-height: 1020px;
+        height: 100%;
+    }
+    #equipe img {
+        width: 100%;
+    }
 }
 @media (max-width: 767px) {
+    .container {
+        max-width: 100%!important;
+        width: 100%;
+    }
     button.navbar-toggle.collapsed {
         display: none;
     }
@@ -347,10 +374,81 @@ form textarea {
         padding: 10px 20px;
     }
     #home {
-        height: 470px;
+        height: 420px;
     }
     #home .center {
-        height: 470px;
+        height: 440px;
+    }
+    #sobre {
+        height: 660px;
+    }
+    #sobre .center {
+        height: 660px;
+    }
+    #sobre .content {
+        padding: 0;
+    }
+    #sobre .content h1 {
+        font-size: 30px;
+    }
+    #servicos {
+        background: url(../images/servicos.png) no-repeat;
+        background-color: #7d45ac;
+        width: 100%;
+        min-height: 1020px;
+        height: 100%;
+        padding: 50px 0;
+    }
+    #servicos .center {
+        min-height: 1020px;
+        height: 100%;
+    }
+    #servicos h1 {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    #servicos .item {
+        width: 70%;
+    }
+    #servicos .item h3 {
+        font-size: 18px;
+    }
+    #servicos .item p {
+        font-size: 14px;
+    }
+    #equipe {
+        background-color: #e4e6e6;
+        min-height: 1020px;
+        height: 100%;
+        padding: 50px 0;
+    }
+    #equipe .center {
+        min-height: 1020px;
+        height: 100%;
+    }
+    #equipe h1 {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    #equipe img {
+        width: 100%;
+    }
+    #contato {
+        background-size: auto 600px;
+        height: 600px;
+    }
+    #contato .center {
+        height: 540px;
+    }
+    #contato h1 {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    footer span {
+        font-size: 16px;
     }
 }
 @media (min-width: 787px) and (max-width: 999px) {
